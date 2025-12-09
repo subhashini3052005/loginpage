@@ -5,7 +5,7 @@
 
 }
 .container{
-    background: linear-gradient(to right,rgb(224, 116, 224),rgb(194, 9, 226));
+    background: linear-gradient(115deg,rgb(205, 75, 205),rgb(92, 67, 193));
     padding: 30px;
     border-radius: 15px;
     max-width: 55vh;
@@ -36,6 +36,7 @@
     color: aliceblue;
     position: relative;
     top: -50px;
+    transition: 0.3s;
 }
 .field input:focus{
     border-color:rgb(194, 9, 226) ;
@@ -55,7 +56,7 @@
     color: aliceblue;
     text-decoration: none;
 }
-button{
+.bu{
     width: 100%;
     height: 40px;
     cursor: pointer;
@@ -68,7 +69,7 @@ button{
     transition: 0.3s;
     margin-bottom: 20px;
 }
-button:hover{
+.bu:hover{
     background-color:rgb(140, 35, 161); 
 }
 .signin{

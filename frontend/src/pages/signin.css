@@ -1,0 +1,74 @@
+.subha{
+    display: flex;
+    justify-content: center;
+    margin-top: 18vh ;
+    
+
+}
+.container2{
+    background: linear-gradient(to right,rgb(205, 75, 205),rgb(92, 67, 193));
+    width: 100%;
+    max-width: 55vh;
+    border-radius: 13px;
+    padding: 25px;
+
+}
+.container2 h2{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ip label{
+    color: aliceblue;
+    top: -45px;
+    position: relative;
+    transition: 0.3s;
+
+}
+.ip input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid aliceblue ;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.ip input:focus{
+    border-color:rgb(194, 9, 226) ;
+}
+.ip input:focus+label,
+.ip input:not(:placeholder-shown)+label{
+    top:-65px;
+    color:rgb(78, 9, 91)  ;
+}
+.butt{
+    width: 100%;
+    height: 45px;
+    border-radius: 13px;
+    border: none;
+    color: aliceblue;
+    background-color:rgb(194, 9, 226) ;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+.butt:hover{
+    background-color:rgb(125, 84, 207); 
+}
+.op{
+    color: aliceblue;
+    margin-top: 20px ;
+    display: flex;
+    justify-content: center;
+}
+.op a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.op a:hover{
+    text-decoration: underline;
+}

@@ -27,7 +27,7 @@ const Login = () => {
                 </label>
                 <a href="">forgot password</a>
             </div>
-            <button>login</button>
+            <button className='bu'>login</button>
             <div className="signin">
                 Don't have an account?
                 <Link to= "/signin">signin</Link>
