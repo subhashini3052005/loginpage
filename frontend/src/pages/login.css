@@ -1,0 +1,86 @@
+.react{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+
+}
+.container{
+    background: linear-gradient(to right,rgb(224, 116, 224),rgb(194, 9, 226));
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 55vh;
+    width: 100%;
+
+}
+.container h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container p{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.field input{
+    border: none;
+    border-bottom: 2px solid aliceblue;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    margin-bottom: 18px;
+}
+.field label{
+    color: aliceblue;
+    position: relative;
+    top: -50px;
+}
+.field input:focus{
+    border-color:rgb(194, 9, 226) ;
+}
+.field input:focus+label,
+.field input:not(:placeholder-shown)+label{
+    top:-65px;
+    color:rgb(78, 9, 91)  ;
+}
+.options{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options a{
+    color: aliceblue;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(197, 59, 225)  ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color:aliceblue;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color:rgb(140, 35, 161); 
+}
+.signin{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.signin a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.signin a:hover{
+    text-decoration: underline;
+}
